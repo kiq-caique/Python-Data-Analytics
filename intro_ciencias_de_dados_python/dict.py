@@ -6,6 +6,8 @@ print(pessoa["idade"]) # 31
 print(pessoa["nome"]) # Carlos Henrique
 pessoa["telefone"] = "98252-0093"
 print(pessoa) #{'nome': 'Carlos Henrique', 'idade': 31, 'telefone': '98252-0093'}
+pessoa["nome"] = "Caique"
+print(pessoa) #{'nome': 'Caique', 'idade': 31, 'telefone': '98252-0093'}
 
 contatos = {
     "caique-kiq@hotmail.com":{"nome": "Carlos Henrique", "idade": 31},
